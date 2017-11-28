@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+body {
+   margin: 0;
+   font-family: 'Libre Franklin', sans-serif;
+ }
+
+ h1 {
+ 	text-align: center;
+ }
+
+#designer {
+	width: 100%;
+	height: 100%;
+	/*width: auto;*/
+	border: 1px solid #484;
+	margin: 0 auto;
+}
+
+rect {
+	fill: none;
+}
+
+.print-area-default-box {
+	display: none;
+}
+
+.estampa-view .estampa-cont {
+	cursor: move;
+}
+
+.print-area.active, .estampa-borde.active {
+	stroke: white;
+	stroke-width: 1;
+}
+
+.estampa-borde.active.red {
+	stroke: red;
+	stroke-width: 3;
+}
+
+.estampa-borde.active.blue {
+	stroke: #58D3F7;
+	stroke-width: 3;
+}
+
+ol,ul {list-style:none}
+
+.product-view-selector {
+	/*position:absolute;*/
+	width:100%;
+	z-index:1;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	justify-content:center;
+	text-align:center;
+	pointer-events:none
+}
+
+.product-view-selector li {
+	cursor: pointer;
+	pointer-events:auto;
+	margin:.25em;
+	border:1px solid lightgrey;
+	background:#fff;
+	padding:5px;
+	border-radius:5px;
+	position:relative;
+	color:gray
+}
+
+.product-view-selector li.active {
+	border-color:#00B2A5
+}
+
+.view-front img {
+	width: 2em;
+}
