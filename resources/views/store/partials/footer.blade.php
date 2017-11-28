@@ -7,8 +7,8 @@
 		<div class="col-md-4">
 			<h3>Developed by:</h3>
 			<div class="author-info">
-				<img src="https://pbs.twimg.com/profile_images/592393458469380096/T4twnQ3Q.png" alt="" class="avatar">
-				<p><a href="#">Software sin Límites</a> The best in the development</p>
+				<img src="images/logo.png" alt="" class="avatar">
+				<p><a href="#">Software sin Límites</a> We develop software at measure for your enterprise</p>
 			</div>
 		</div>
 		<div class="col-md-4">
