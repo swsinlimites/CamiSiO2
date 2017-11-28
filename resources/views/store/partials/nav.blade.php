@@ -13,7 +13,7 @@
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <p class="navbar-text">You use it, you create it</p>
+      
       <a class="button my-2 my-sm-0 navbar-right"  href="{{ route('login-get') }}" role="button" id="SignInBtn"><span>Sign In</span></a>
       <a class="navbar-brand navbar-right" href="{{ route('register-get') }}">Sign Up</a></li>
       <a class="navbar-brand navbar-right" href="#">About Us</a></li>
