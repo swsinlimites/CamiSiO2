@@ -8,7 +8,7 @@
     transition: all 0.3s ease 0s;
 }
 .pricingTable:hover .pricingTable-header{
-    background: #09b2c6;
+    background: #8c8789;
 }
 .pricingTable .pricingTable-header:before,
 .pricingTable .pricingTable-header:after{
@@ -38,7 +38,7 @@
     position: relative;
     font-size: 55px;
     font-weight: bold;
-    color: #09b1c5;
+    color: #8c8789;
     transition: all 0.3s ease 0s;
 }
 .pricingTable:hover .price-value{
@@ -100,7 +100,7 @@
 }
 .pricingTable:hover .pricing-content ul:before,
 .pricingTable:hover .pricing-content ul:after{
-    background: linear-gradient(to bottom, #40c4db 50%, #34bacc 50%);
+    background: linear-gradient(to bottom, #989d9e 50%, #34bacc 50%);
 }
 .pricingTable .pricing-content ul:before{
     left: 44px;
@@ -132,7 +132,7 @@
     text-decoration: none;
 }
 .pricingTable:hover .read{
-    background: #09b1c5;
+    background: #808079;
 }
 @media screen and (max-width: 990px){
     .pricingTable{ margin-bottom: 25px; }

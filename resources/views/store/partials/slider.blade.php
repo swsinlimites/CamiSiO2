@@ -10,19 +10,19 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://static.mercadoshops.com/camisetas-estampadas-para-mujer-100-algodon-promocion-_iZ19XvZxXpZ2XfZ109370263-402607450-2.jpgXsZ109370263xIM.jpg" alt="slide1" id="SliderImg">
+        <img src="{{ asset('images/sl01.png') }}" alt="slide1" id="SliderImg">
         <div class="carousel-caption">
           Slide 1
         </div>
       </div>
       <div class="item">
-        <img src="https://static.mercadoshops.com/camisetas-disenos-exclusivos-para-dama-super-promocion-_iZ4XvZxXpZ3XfZ109370263-402607501-3.jpgXsZ109370263xIM.jpg" alt="slide2" id="SliderImg">
+        <img src="{{ asset('images/sl02.png') }}" alt="slide2" id="SliderImg">
         <div class="carousel-caption">
           Slide 2
         </div>
       </div>
       <div class="item">
-        <img src="http://marinabordadosyestampados.com/wp-content/uploads/2016/02/camisetas-estampadas-para-mujer-100-algodon-promocion-_iZ19XvZxXpZ4XfZ109370263-402607450-4.jpgXsZ109370263xIM.jpg" alt="slide3" id="SliderImg">
+        <img src="{{ asset('images/sl03.png') }}" alt="slide3" id="SliderImg">
         <div class="carousel-caption">
           Slide 3
         </div>

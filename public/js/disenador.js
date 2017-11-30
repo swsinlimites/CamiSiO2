@@ -99,7 +99,12 @@ $(function() {
 function drawInitial(svg) {
 	var g = svg.group({class: 'product-back', transform: 'translate(0,0) scale(1, 1)'});
 	// svg.image(g, 0, 0, '100%', '100%', 'img/camiseta.webp', {id: 'fondo'});
-	svg.image(g, 0, 0, '100%', '100%', 'https://static.owayo-cdn.com/newhp/designRenderings/fussballtrikotsf5/design_pool_variante_a_1.png', {id: 'fondo'});
+	var src = $('#playera').attr('src');
+	console.log(src);
+	if(src)
+		svg.image(g, 0, 0, '100%', '100%', src, {id: 'fondo'});
+	else
+		svg.image(g, 0, 0, '100%', '100%', 'https://static.owayo-cdn.com/newhp/designRenderings/fussballtrikotsf5/design_pool_variante_a_1.png', {id: 'fondo'});
 	var g = svg.group(g, {id: 'print-area', class: 'print-area', transform: 'translate(280, 70)'});
 	svg.rect(g, 0, 0, '22%', '75%', {class: 'print-area-border'});
 	svg.rect(g, 23, 25, 75, 135, {class: 'print-area-default-box'});

@@ -3,14 +3,14 @@ body
 	background: #EBEBEB;
 	font-family: 'UpperEastSide', serif;
 	color: black;
-	background-image: url("https://i.pinimg.com/originals/93/5a/79/935a799f84786663734bb098313dc29c.jpg");
+	/*background-image: url("https://i.pinimg.com/originals/93/5a/79/935a799f84786663734bb098313dc29c.jpg");*/
 	background-size: 1360px;
 	background-repeat: no-repeat;
 }
 #LogoImg {
- 	width: 370px;
- 	height: 100px;
- }
+	width: 22%;
+	/*height: 30px;*/
+}
 a
 {
 	font-family: 'Bellerose';
@@ -28,93 +28,99 @@ h1,h2,h3,h4,h5,h6
 	font-family: 'Bellerose', cursive;
 }
 
-/* Nav ----------*/
+/* Nav ---------- */
+
+.navbar-brand {
+	/*float: none;*/
+}
+
 .main-title
 {
-	color: #8d8888 !important;
-	font-size: 26px;
-
-}
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  height: 100px;
-  position: absolute;
-  top: 100px;
+	/*color: #8d8888 !important;*/
+	/*font-size: 26px;*/
 }
 
-li a{
-	background-color: #8d8888;
-  display: block;
-  color: white;
-  padding: 8px 16px;
-  text-decoration: none;
+ul {
+	/*list-style-type: none;*/
+	/*margin: 0;
+	padding: 0;
+	height: 100px;
+	position: absolute;*/
+	/*top: 100px;*/
 }
 
-li a:hover{
-  background-color: #585858;
+li a {
+	/*background-color: #f8f8f8;
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;*/
+}
+
+li a:hover {
+	/*background-color: #585858;*/
 }
 
 nav
 {
-	background-color: #8d8888;
-	height: 175px;
+	/*background-color: #8d8888;*/
+	/*height: 175px;*/
 }
 
 .navbar-right{
-  position: relative;
-  top: 5px;
-  right: 10px;
+	/*position: relative;*/
+	top: 5px;
+	right: 10px;
 }
 
 /* Button def-----------*/
-.button	 {
-    border: none;
-    color: white;
-    padding: 14px 28px;
-    cursor: pointer;
+.button {
+	border: none;
+	color: white;
+	padding: 14px 28px;
+	cursor: pointer;
 }
 
-#SignInBtn{
-  	background-color: #46a049;
+#SignInBtn {
+	background-color: #46a049;
 	font-family: 'Bellerose';
-	font-size: 18;
+	font-size: 1em;
 }
 
 #SignInBtn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
 }
 
 #SignInBtn span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
 }
 
-#SignInBtn:hover span {
-  padding-right: 15px;
+#SignInBtn:hover span, #SignInBtn:hover i {
+	color: yellow;
+	padding-right: 15px;
 }
 
 #SignInBtn:hover span:after {
-  opacity: 1;
-  right: 0;
+	opacity: 1;
+	right: 0;
 	color: white
 }
 
 /* Footer -------*/
 footer
 {
-	background: #8d8888;
+	background: #bbc7c4;
 	text-align: center;
 	position: relative;
-	top: 300px;
+	/*top: 300px;*/
 }
 
 footer p
@@ -143,35 +149,35 @@ ul.redes li a
 
 /* Catalogo -------------*/
 #products {
-position: relative;
-max-width: 100%;
-width: 100%;
-top: 210px;
+	position: relative;
+	max-width: 100%;
+	/*width: 100%;*/
+	/*top: 210px;*/
 }
 img {
-width: 100%;
-max-width: 100%;
-height: auto;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 .white-panel {
-position: absolute;
-background: white;
-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
-padding: 10px;
+	position: absolute;
+	background: white;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	padding: 10px;
 }
 .white-panel h1 {
-font-size: 1em;
+	font-size: 1em;
 }
 .white-panel h1 a {
-color: #A92733;
+	color: #A92733;
 }
 .white-panel:hover {
-box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
-margin-top: -5px;
--webkit-transition: all 0.3s ease-in-out;
--moz-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	margin-top: -5px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /* Detalle producto ---------*/
@@ -185,17 +191,19 @@ transition: all 0.3s ease-in-out;
 /* Slider ----------*/
 .navbar
 {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 #slider
 {
-	position: relative;
+	/*position: relative;
 	top: 200px;
 	left: 20px;
 	right: 20px;
 	width: 1300px;
-	height: 500px;
+	height: 500px;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
 	background-color: rgba(198, 198, 198, 0.5);
 }
 
@@ -211,7 +219,7 @@ transition: all 0.3s ease-in-out;
 /* Carrito -----------*/
 .table-cart
 {
-	background: #857c7c;
+	background: #bbc7c4;
 	border-radius: 1em;
 	margin-bottom: 30px;
 	padding: 1em;
@@ -225,20 +233,20 @@ transition: all 0.3s ease-in-out;
 /* Detalle del pedido ------------*/
 .page
 {
-	background: #857c7c;
+	background: #bbc7c4;
 	border-radius: 1em;
 	margin-bottom: 30px;
 	padding: 1em;
 }
 .table-responsive
 {
-	background-color: #857c7c;
+	background-color: #bbc7c4;
 }
 .table-hover
 {
-	background-color: #857c7c;
+	background-color: #bbc7c4;
 }
 .table-striped
 {
-	background-color: #857c7c;
+	background-color: #bbc7c4;
 }

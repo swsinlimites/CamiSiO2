@@ -2,12 +2,12 @@
 	<div class="row">
 		<div class="col-md-4">
 			<h3>CamiSiO2.com</h3>
-			<p>This project is developed for the class "Tendencias avanzadas de Ingeniería de Software" by the professor José David Álvarez Plata</p>
+			<p>This project is developed for the class "Tendencias avanzadas de Ingeniería de Software" by the professor José David Álvarez Plata.</p>
 		</div>
 		<div class="col-md-4">
 			<h3>Developed by:</h3>
 			<div class="author-info">
-				<img src="images/logo.png" alt="" class="avatar">
+				<image src="{{ asset('images/logo.png') }}" alt="Logo Software sin Límites" class="avatar">
 				<p><a href="#">Software sin Límites</a> We develop software at measure for your enterprise</p>
 			</div>
 		</div>
@@ -31,7 +31,7 @@
 				</li>
 			</ul>
 			<h3>Write us:</h3>
-			<i class="fa fa-at"></i> <a href="#">swsinlimitesud@gmail.com</a>
+			<i class="fa fa-at"></i><a href="#">swsinlimitesud@gmail.com</a>
 		</div>
 	</div>
 </footer>

@@ -17,7 +17,11 @@
 						<a class="btn btn-warning" href="{{ route('cart-add', $product->slug) }}">
 							<i class="fa fa-cart-plus"></i> Buy
 						</a>
-						<a class="btn btn-primary" href="{{ route('product-detail', $product->slug) }}"><i class="fa fa-chevron-circle-right"></i> Details</a>
+						<a class="btn btn-primary" href="{{ route('product-detail', $product->slug) }}">	<i class="fa fa-chevron-circle-right"></i> Details
+						</a>
+						<a class="btn btn-danger" href="{{ route('designer-slug', $product->slug) }}">
+							<i class="fa fa-pencil"></i> Create
+						</a>
 					</p>
 				</div>
 			</div>

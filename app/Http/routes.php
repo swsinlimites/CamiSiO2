@@ -111,6 +111,18 @@ Route::get('payment/status', array(
 	'uses' => 'PaypalController@getPaymentStatus',
 ));
 
+// Diseñador
+
+Route::get('designer', [
+	'as' => 'designer',
+	'uses' => 'DesignerController@index'
+]);
+
+Route::get('designer/{slug}', [
+	'as' => 'designer-slug',
+	'uses' => 'DesignerController@show'
+]);
+
 
 // ADMIN -------------
 

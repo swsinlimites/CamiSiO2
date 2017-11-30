@@ -130,6 +130,9 @@ class PaypalController extends BaseController
 
 		//if (empty(\Input::get('PayerID')) || empty(\Input::get('token'))) {
 		if (empty($payerId) || empty($token)) {
+			// Se decide guardar la operación acá, debido que al usar PayPal exige
+			// configurar Tarjeta
+			$this->saveOrder(\Session::get('cart'));
 			return \Redirect::route('home')
 				->with('message', 'Hubo un problema al intentar pagar con Paypal');
 		}
